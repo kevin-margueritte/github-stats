@@ -3,7 +3,7 @@
 ## Contexte
 
 L'objectif de ce projet est de récuperer des statistiques via l'API Github.
-Une version est en production [ici](https://mediatheque-mrgueritte.herokuapp.com/)
+Une version est en production [ici](https://stats-github.herokuapp.com/)
 
 ## Technologies
 
