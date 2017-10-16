@@ -1,5 +1,5 @@
-name := """Mediathque Epic 1"""
-organization := "com.mrgueritte.mediatheque"
+name := """Epic 2 - Github stats"""
+organization := "com.mrgueritte.github.stats"
 
 version := "1.0-SNAPSHOT"
 
