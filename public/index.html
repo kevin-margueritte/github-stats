@@ -798,7 +798,11 @@ margin-bottom: 20px;
                                         <article id="api-Commiters-bestCommiters-0" data-group="User" data-name="bestCommiters" data-version="0">
                                             <div class="pull-left">
                                                 <h1>bestCommiters</h1>
-                                                <p>Liste des 10 plus importants commiters avec le nom et leur adresse mail (sur les 100 premiers commits du projet)</p>
+                                                <p>Liste des 10 plus importants commiters avec le nom et leur adresse mail (sur les 100 premiers commits du projet)
+                                                La recherche des meilleurs langages est effectuée de la manière suivante : 
+                                               		 - Recherche du langage majoritaire
+                                               		 - Calcul du nombre de commits sur la dernière année 
+                                               	/!\ : Il faut éviter de tester cette API, Github autorise 30 requêtes, car l'API effectuera autant d'itération que le nombre de projets possédés par utilisateur.</p>
                                             </div>
                                             <div class="pull-right">
 
@@ -1331,7 +1335,7 @@ String *repository = repository_example; // projet
 
 IssuesApi *apiInstance = [[IssuesApi alloc] init];
 
-// Liste du nombre d'issues ajouté par jours au cours des 30 derniers jours. Liste sous forme de coordonnées en abscisse la date et en ordonnée le nombre d\'issues
+// Liste du nombre d'issues ajoutés par jours au cours des 30 derniers jours. Liste sous forme de coordonnées en abscisse la date et en ordonnée le nombre d'issues
 [apiInstance statsIssuesWith:user
     repository:repository
               completionHandler: ^(NSError* error) {
@@ -1390,7 +1394,7 @@ namespace Example
 
             try
             {
-                // Liste du nombre d'issues ajouté par jours au cours des 30 derniers jours. Liste sous forme de coordonnées en abscisse la date et en ordonnée le nombre d\'issues
+                // Liste du nombre d'issues ajouté par jours au cours des 30 derniers jours. Liste sous forme de coordonnées en abscisse la date et en ordonnée le nombre d'issues
                 apiInstance.statsIssues(user, repository);
             }
             catch (Exception e)

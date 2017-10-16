@@ -4,7 +4,7 @@
 		module="mediathque-epic-1_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20171015222438"
+		publication="20171017002003"
 	>
 		<description>
 		Mediathque Epic 1
@@ -49,9 +49,8 @@
 		<dependency org="com.typesafe.play" name="filters-helpers_2.12" rev="2.6.6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-logback_2.12" rev="2.6.6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-akka-http-server_2.12" rev="2.6.6" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.6.6" conf="compile->default(compile)"/>
-		<dependency org="org.scalatestplus.play" name="scalatestplus-play_2.12" rev="3.1.2" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-ahc-ws_2.12" rev="2.6.6" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.6.6" conf="compile->default(compile)"/>
 		<dependency org="io.circe" name="circe-optics_2.12" rev="0.8.0" conf="compile->default(compile)"/>
 		<dependency org="com.dripower" name="play-circe_2.12" rev="2608.5" conf="compile->default(compile)"/>
 		<dependency org="com.github.nscala-time" name="nscala-time_2.12" rev="2.16.0" conf="compile->default(compile)"/>

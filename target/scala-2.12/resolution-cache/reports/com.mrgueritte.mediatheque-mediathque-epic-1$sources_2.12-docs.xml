@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="docs"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20171015222506"/>
+		date="20171017002023"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-omnidoc_2.12">
 			<revision name="2.6.6" status="release" pubdate="20171006000231" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/omnidoc" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
@@ -51,8 +51,8 @@
 				<metadata-artifact status="no" details="" size="11588" time="0" location="/Users/kevinmargueritte/.ivy2/cache/commons-io/commons-io/ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom"/>
 				<caller organisation="com.mrgueritte.mediatheque" name="mediathque-epic-1$sources_2.12" conf="docs" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="commons-io" type="jar" ext="jar" extra-classifier="" status="no" details="" size="208700" time="0" location="/Users/kevinmargueritte/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.5.jar">
-						<origin-location is-local="false" location="UNKNOWN"/>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="275699" time="0" location="/Users/kevinmargueritte/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

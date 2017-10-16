@@ -1,5 +1,6 @@
 [debug] Other repositories:
 [debug] Default repositories:
+[debug] no default cache defined: set to /Users/kevinmargueritte/.ivy2/cache
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: com.mrgueritte.mediatheque#mediathque-epic-1$sbt_2.10;1.0-SNAPSHOT
 [debug] 	confs: [default]
@@ -5199,9 +5200,9 @@
 [debug] 	[NOT REQUIRED] jfree#jfreechart;1.0.8a!jfreechart.jar
 [debug] 	[NOT REQUIRED] junit#junit;3.8.1!junit.jar
 [debug] 	[NOT REQUIRED] classworlds#classworlds;1.1-alpha-2!classworlds.jar
-[debug] :: resolution report :: resolve 5689ms :: artifacts dl 125ms
+[debug] :: resolution report :: resolve 4948ms :: artifacts dl 127ms
 [debug] 	report for com.mrgueritte.mediatheque#mediathque-epic-1$sbt_2.10;1.0-SNAPSHOT default produced in /Users/kevinmargueritte/Documents/graphQL/target/scala-2.12/resolution-cache/reports/com.mrgueritte.mediatheque-mediathque-epic-1$sbt_2.10-default.xml
-[debug] 	resolve done (5689ms resolve - 125ms download)
+[debug] 	resolve done (4948ms resolve - 127ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: com.mrgueritte.mediatheque#mediathque-epic-1$sources_2.10;1.0-SNAPSHOT
 [debug] 	confs: [default]
@@ -7567,6 +7568,6 @@
 [debug] 	[NOT REQUIRED] org.codehaus.plexus#plexus-archiver;2.7.1!plexus-archiver.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#command;0.13.16!command.jar(src)
 [debug] 	[NOT REQUIRED] org.clapper#classutil_2.10;1.1.0!classutil_2.10.jar(src)
-[debug] :: resolution report :: resolve 1945ms :: artifacts dl 71ms
+[debug] :: resolution report :: resolve 2784ms :: artifacts dl 155ms
 [debug] 	report for com.mrgueritte.mediatheque#mediathque-epic-1$sources_2.10;1.0-SNAPSHOT default produced in /Users/kevinmargueritte/Documents/graphQL/target/scala-2.12/resolution-cache/reports/com.mrgueritte.mediatheque-mediathque-epic-1$sources_2.10-default.xml
-[debug] 	resolve done (1945ms resolve - 71ms download)
+[debug] 	resolve done (2784ms resolve - 155ms download)

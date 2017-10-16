@@ -4,7 +4,7 @@
 		module="mediathque-epic-1$sources_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20171015222503"
+		publication="20171017002020"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="default"
 		confs="default"
-		date="20171015222503"/>
+		date="20171017002020"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="sbt-plugin">
 			<revision name="2.6.6" status="release" pubdate="20171005212410" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="55">

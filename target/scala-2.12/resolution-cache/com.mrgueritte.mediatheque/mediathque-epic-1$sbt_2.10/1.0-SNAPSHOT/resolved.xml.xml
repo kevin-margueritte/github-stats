@@ -4,7 +4,7 @@
 		module="mediathque-epic-1$sbt_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20171015222458"
+		publication="20171017002014"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
