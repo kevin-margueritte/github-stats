@@ -10,7 +10,7 @@ Une version est en production [ici](https://stats-github.herokuapp.com/)
 La liste des technologies utilisées est :
     
   - Play 2 : 2.6
-  - Slick : 3.2
+  - Scala : 2.12.3
   - Circe
   - Joda
 
