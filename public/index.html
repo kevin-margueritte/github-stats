@@ -798,11 +798,7 @@ margin-bottom: 20px;
                                         <article id="api-Commiters-bestCommiters-0" data-group="User" data-name="bestCommiters" data-version="0">
                                             <div class="pull-left">
                                                 <h1>bestCommiters</h1>
-                                                <p>Liste des 10 plus importants commiters avec le nom et leur adresse mail (sur les 100 premiers commits du projet)
-                                                La recherche des meilleurs langages est effectuée de la manière suivante : 
-                                               		 - Recherche du langage majoritaire
-                                               		 - Calcul du nombre de commits sur la dernière année 
-                                               	/!\ : Il faut éviter de tester cette API, Github autorise 30 requêtes, car l'API effectuera autant d'itération que le nombre de projets possédés par utilisateur.</p>
+                                                <p>Liste des 10 plus importants commiters avec le nom et leur adresse mail (sur les 100 premiers commits du projet)</p>
                                             </div>
                                             <div class="pull-right">
 
@@ -1622,7 +1618,7 @@ try {
                                         <article id="api-User-favoriteLanguage-0" data-group="User" data-name="favoriteLanguage" data-version="0">
                                             <div class="pull-left">
                                                 <h1>favoriteLanguage</h1>
-                                                <p>Liste des langages les plus utilisés par un utilisateur Github sur ses projets.</p>
+                                                <p>Liste des langages les plus utilisés par un utilisateur Github sur ses projets. La recherche est effectuée d'abord sur le langage majoritaire du projet puis sur le nombre de commits sur ce dernier au cours de l'année. Il faut éviter de tester cette API, Github autorise 30 requêtes, car l'API effectuera autant d'itération que le nombre de projets possédés par utilisateur.</p>
                                             </div>
                                             <div class="pull-right">
 
